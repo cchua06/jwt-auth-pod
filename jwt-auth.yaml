@@ -7,7 +7,7 @@ metadata:
 spec:
   containers:
   - name: jwt-auth
-    image: ptrck0321/jwt-auth
+    image: nginx
     imagePullPolicy: IfNotPresent
   nodeSelector:
     roles: worker
