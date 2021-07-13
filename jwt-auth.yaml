@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: jwt-auth-w1
+  name: jwt-auth
   labels:
     env: test
 spec:
   containers:
-  - name: jwt-auth-w1
+  - name: jwt-auth
     image: ptrck0321/jwt-auth
     imagePullPolicy: IfNotPresent
   nodeSelector:
