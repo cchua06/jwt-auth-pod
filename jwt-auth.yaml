@@ -9,5 +9,7 @@ spec:
   - name: jwt-auth
     image: ptrck0321/jwt-auth
     imagePullPolicy: IfNotPresent
+    ports:
+    - containerPort: 8080
   nodeSelector:
     roles: worker
