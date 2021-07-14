@@ -3,7 +3,7 @@ kind: Pod
 metadata:
   name: jwt-auth
   labels:
-    env: test
+    app: jwt-auth
 spec:
   containers:
   - name: jwt-auth
